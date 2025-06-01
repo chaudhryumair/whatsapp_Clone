@@ -7,18 +7,46 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		011626C52D68B1BC0033F479 /* CreateCallLinkSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 011626C42D68B1BC0033F479 /* CreateCallLinkSection.swift */; };
+		0159464E2D66942D0073E9FE /* StatusSectionHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0159464D2D66942D0073E9FE /* StatusSectionHeader.swift */; };
+		015946502D6696BA0073E9FE /* StatusSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0159464F2D6696BA0073E9FE /* StatusSection.swift */; };
+		015946522D669C410073E9FE /* RecentUpdatesStatusSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 015946512D669C410073E9FE /* RecentUpdatesStatusSection.swift */; };
+		015946542D669DE90073E9FE /* StausChannelListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 015946532D669DE90073E9FE /* StausChannelListView.swift */; };
+		015946562D66A3480073E9FE /* ChannelSectionHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 015946552D66A3480073E9FE /* ChannelSectionHeader.swift */; };
+		015946592D66A6530073E9FE /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 015946582D66A6530073E9FE /* Constants.swift */; };
+		0159465D2D66A84E0073E9FE /* CallsTabScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0159465C2D66A84E0073E9FE /* CallsTabScreen.swift */; };
 		0164ADB12D5D4ECB0036D5F4 /* WhatsappCloneApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0164ADB02D5D4ECB0036D5F4 /* WhatsappCloneApp.swift */; };
-		0164ADB32D5D4ECB0036D5F4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0164ADB22D5D4ECB0036D5F4 /* ContentView.swift */; };
 		0164ADB52D5D4ECC0036D5F4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0164ADB42D5D4ECC0036D5F4 /* Assets.xcassets */; };
 		0164ADB82D5D4ECC0036D5F4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0164ADB72D5D4ECC0036D5F4 /* Preview Assets.xcassets */; };
+		0164ADBF2D5D4EED0036D5F4 /* Assets in Resources */ = {isa = PBXBuildFile; fileRef = 0164ADBE2D5D4EED0036D5F4 /* Assets */; };
+		017C71302D63611B00D0CC0E /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 017C712F2D63611B00D0CC0E /* MainTabView.swift */; };
+		017C71322D636E9400D0CC0E /* UpdatesTabScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 017C71312D636E9400D0CC0E /* UpdatesTabScreen.swift */; };
+		01A48CA02D7BCA4A0016C5B1 /* CommunityTabScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01A48C9F2D7BCA4A0016C5B1 /* CommunityTabScreen.swift */; };
+		01E044EA2DAB26FE0067F338 /* ChannelsTabScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01E044E92DAB26FE0067F338 /* ChannelsTabScreen.swift */; };
+		01E044EC2DAB2E0D0067F338 /* ChannelItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01E044EB2DAB2E0D0067F338 /* ChannelItemView.swift */; };
+		01EAE7CD2D7A5E8600B55142 /* RecentCallItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01EAE7CC2D7A5E8600B55142 /* RecentCallItemView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		011626C42D68B1BC0033F479 /* CreateCallLinkSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateCallLinkSection.swift; sourceTree = "<group>"; };
+		0159464D2D66942D0073E9FE /* StatusSectionHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatusSectionHeader.swift; sourceTree = "<group>"; };
+		0159464F2D6696BA0073E9FE /* StatusSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatusSection.swift; sourceTree = "<group>"; };
+		015946512D669C410073E9FE /* RecentUpdatesStatusSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecentUpdatesStatusSection.swift; sourceTree = "<group>"; };
+		015946532D669DE90073E9FE /* StausChannelListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StausChannelListView.swift; sourceTree = "<group>"; };
+		015946552D66A3480073E9FE /* ChannelSectionHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChannelSectionHeader.swift; sourceTree = "<group>"; };
+		015946582D66A6530073E9FE /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		0159465C2D66A84E0073E9FE /* CallsTabScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CallsTabScreen.swift; sourceTree = "<group>"; };
 		0164ADAD2D5D4ECB0036D5F4 /* WhatsappClone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WhatsappClone.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0164ADB02D5D4ECB0036D5F4 /* WhatsappCloneApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhatsappCloneApp.swift; sourceTree = "<group>"; };
-		0164ADB22D5D4ECB0036D5F4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		0164ADB42D5D4ECC0036D5F4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0164ADB72D5D4ECC0036D5F4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		0164ADBE2D5D4EED0036D5F4 /* Assets */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Assets; sourceTree = "<group>"; };
+		017C712F2D63611B00D0CC0E /* MainTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabView.swift; sourceTree = "<group>"; };
+		017C71312D636E9400D0CC0E /* UpdatesTabScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdatesTabScreen.swift; sourceTree = "<group>"; };
+		01A48C9F2D7BCA4A0016C5B1 /* CommunityTabScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommunityTabScreen.swift; sourceTree = "<group>"; };
+		01E044E92DAB26FE0067F338 /* ChannelsTabScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChannelsTabScreen.swift; sourceTree = "<group>"; };
+		01E044EB2DAB2E0D0067F338 /* ChannelItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChannelItemView.swift; sourceTree = "<group>"; };
+		01EAE7CC2D7A5E8600B55142 /* RecentCallItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecentCallItemView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,6 +60,74 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		011626C32D68B1960033F479 /* Subviews */ = {
+			isa = PBXGroup;
+			children = (
+				011626C42D68B1BC0033F479 /* CreateCallLinkSection.swift */,
+				01EAE7CC2D7A5E8600B55142 /* RecentCallItemView.swift */,
+			);
+			path = Subviews;
+			sourceTree = "<group>";
+		};
+		015946472D668E6E0073E9FE /* Updates */ = {
+			isa = PBXGroup;
+			children = (
+				01E044E02DAB1F4D0067F338 /* view */,
+				015946492D668EAC0073E9FE /* Subviews */,
+			);
+			path = Updates;
+			sourceTree = "<group>";
+		};
+		015946482D668E7E0073E9FE /* Tab View */ = {
+			isa = PBXGroup;
+			children = (
+				017C712F2D63611B00D0CC0E /* MainTabView.swift */,
+			);
+			path = "Tab View";
+			sourceTree = "<group>";
+		};
+		015946492D668EAC0073E9FE /* Subviews */ = {
+			isa = PBXGroup;
+			children = (
+				0159464D2D66942D0073E9FE /* StatusSectionHeader.swift */,
+				0159464F2D6696BA0073E9FE /* StatusSection.swift */,
+				015946512D669C410073E9FE /* RecentUpdatesStatusSection.swift */,
+				015946532D669DE90073E9FE /* StausChannelListView.swift */,
+				015946552D66A3480073E9FE /* ChannelSectionHeader.swift */,
+			);
+			path = Subviews;
+			sourceTree = "<group>";
+		};
+		015946572D66A6320073E9FE /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				015946582D66A6530073E9FE /* Constants.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		0159465A2D66A7220073E9FE /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				015946482D668E7E0073E9FE /* Tab View */,
+				015946472D668E6E0073E9FE /* Updates */,
+				0159465B2D66A8310073E9FE /* Calls  */,
+				01994B6B2D7B237600A74F94 /* Community */,
+				01E044E22DAB1FC70067F338 /* Channel */,
+				01E044E32DAB1FDC0067F338 /* Settings */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		0159465B2D66A8310073E9FE /* Calls  */ = {
+			isa = PBXGroup;
+			children = (
+				01E044E12DAB1F640067F338 /* view */,
+				011626C32D68B1960033F479 /* Subviews */,
+			);
+			path = "Calls ";
+			sourceTree = "<group>";
+		};
 		0164ADA42D5D4ECB0036D5F4 = {
 			isa = PBXGroup;
 			children = (
@@ -52,7 +148,9 @@
 			isa = PBXGroup;
 			children = (
 				0164ADB02D5D4ECB0036D5F4 /* WhatsappCloneApp.swift */,
-				0164ADB22D5D4ECB0036D5F4 /* ContentView.swift */,
+				015946572D66A6320073E9FE /* Extensions */,
+				0159465A2D66A7220073E9FE /* Views */,
+				0164ADBE2D5D4EED0036D5F4 /* Assets */,
 				0164ADB42D5D4ECC0036D5F4 /* Assets.xcassets */,
 				0164ADB62D5D4ECC0036D5F4 /* Preview Content */,
 			);
@@ -65,6 +163,78 @@
 				0164ADB72D5D4ECC0036D5F4 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		01994B6B2D7B237600A74F94 /* Community */ = {
+			isa = PBXGroup;
+			children = (
+				01E044E42DAB20220067F338 /* view */,
+				01A48CA12D7BCA550016C5B1 /* Subviews */,
+			);
+			path = Community;
+			sourceTree = "<group>";
+		};
+		01A48CA12D7BCA550016C5B1 /* Subviews */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Subviews;
+			sourceTree = "<group>";
+		};
+		01E044E02DAB1F4D0067F338 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				017C71312D636E9400D0CC0E /* UpdatesTabScreen.swift */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		01E044E12DAB1F640067F338 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				0159465C2D66A84E0073E9FE /* CallsTabScreen.swift */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		01E044E22DAB1FC70067F338 /* Channel */ = {
+			isa = PBXGroup;
+			children = (
+				01E044E62DAB26B00067F338 /* subviews */,
+				01E044E52DAB26AD0067F338 /* view */,
+			);
+			path = Channel;
+			sourceTree = "<group>";
+		};
+		01E044E32DAB1FDC0067F338 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		01E044E42DAB20220067F338 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				01A48C9F2D7BCA4A0016C5B1 /* CommunityTabScreen.swift */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		01E044E52DAB26AD0067F338 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				01E044E92DAB26FE0067F338 /* ChannelsTabScreen.swift */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		01E044E62DAB26B00067F338 /* subviews */ = {
+			isa = PBXGroup;
+			children = (
+				01E044EB2DAB2E0D0067F338 /* ChannelItemView.swift */,
+			);
+			path = subviews;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -126,6 +296,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0164ADB82D5D4ECC0036D5F4 /* Preview Assets.xcassets in Resources */,
+				0164ADBF2D5D4EED0036D5F4 /* Assets in Resources */,
 				0164ADB52D5D4ECC0036D5F4 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -137,8 +308,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0164ADB32D5D4ECB0036D5F4 /* ContentView.swift in Sources */,
+				017C71322D636E9400D0CC0E /* UpdatesTabScreen.swift in Sources */,
 				0164ADB12D5D4ECB0036D5F4 /* WhatsappCloneApp.swift in Sources */,
+				015946522D669C410073E9FE /* RecentUpdatesStatusSection.swift in Sources */,
+				01A48CA02D7BCA4A0016C5B1 /* CommunityTabScreen.swift in Sources */,
+				011626C52D68B1BC0033F479 /* CreateCallLinkSection.swift in Sources */,
+				0159465D2D66A84E0073E9FE /* CallsTabScreen.swift in Sources */,
+				0159464E2D66942D0073E9FE /* StatusSectionHeader.swift in Sources */,
+				015946562D66A3480073E9FE /* ChannelSectionHeader.swift in Sources */,
+				01E044EC2DAB2E0D0067F338 /* ChannelItemView.swift in Sources */,
+				017C71302D63611B00D0CC0E /* MainTabView.swift in Sources */,
+				01E044EA2DAB26FE0067F338 /* ChannelsTabScreen.swift in Sources */,
+				015946502D6696BA0073E9FE /* StatusSection.swift in Sources */,
+				015946542D669DE90073E9FE /* StausChannelListView.swift in Sources */,
+				01EAE7CD2D7A5E8600B55142 /* RecentCallItemView.swift in Sources */,
+				015946592D66A6530073E9FE /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
