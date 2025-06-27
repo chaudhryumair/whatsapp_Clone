@@ -25,6 +25,9 @@
 		01E044EA2DAB26FE0067F338 /* ChannelsTabScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01E044E92DAB26FE0067F338 /* ChannelsTabScreen.swift */; };
 		01E044EC2DAB2E0D0067F338 /* ChannelItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01E044EB2DAB2E0D0067F338 /* ChannelItemView.swift */; };
 		01EAE7CD2D7A5E8600B55142 /* RecentCallItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01EAE7CC2D7A5E8600B55142 /* RecentCallItemView.swift */; };
+		01F219282E0E09A300FF4E55 /* SettingsTabScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01F219272E0E09A300FF4E55 /* SettingsTabScreen.swift */; };
+		01F2192A2E0E0A5400FF4E55 /* SettingsItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01F219292E0E0A5300FF4E55 /* SettingsItemView.swift */; };
+		01F2192D2E0E0C4700FF4E55 /* SettingsItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01F2192C2E0E0C4700FF4E55 /* SettingsItem.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -47,6 +50,9 @@
 		01E044E92DAB26FE0067F338 /* ChannelsTabScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChannelsTabScreen.swift; sourceTree = "<group>"; };
 		01E044EB2DAB2E0D0067F338 /* ChannelItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChannelItemView.swift; sourceTree = "<group>"; };
 		01EAE7CC2D7A5E8600B55142 /* RecentCallItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecentCallItemView.swift; sourceTree = "<group>"; };
+		01F219272E0E09A300FF4E55 /* SettingsTabScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsTabScreen.swift; sourceTree = "<group>"; };
+		01F219292E0E0A5300FF4E55 /* SettingsItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsItemView.swift; sourceTree = "<group>"; };
+		01F2192C2E0E0C4700FF4E55 /* SettingsItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsItem.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -209,6 +215,8 @@
 		01E044E32DAB1FDC0067F338 /* Settings */ = {
 			isa = PBXGroup;
 			children = (
+				01F2192B2E0E0C2200FF4E55 /* Models */,
+				01F219262E0E098600FF4E55 /* views */,
 			);
 			path = Settings;
 			sourceTree = "<group>";
@@ -235,6 +243,23 @@
 				01E044EB2DAB2E0D0067F338 /* ChannelItemView.swift */,
 			);
 			path = subviews;
+			sourceTree = "<group>";
+		};
+		01F219262E0E098600FF4E55 /* views */ = {
+			isa = PBXGroup;
+			children = (
+				01F219272E0E09A300FF4E55 /* SettingsTabScreen.swift */,
+				01F219292E0E0A5300FF4E55 /* SettingsItemView.swift */,
+			);
+			path = views;
+			sourceTree = "<group>";
+		};
+		01F2192B2E0E0C2200FF4E55 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				01F2192C2E0E0C4700FF4E55 /* SettingsItem.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -312,17 +337,20 @@
 				0164ADB12D5D4ECB0036D5F4 /* WhatsappCloneApp.swift in Sources */,
 				015946522D669C410073E9FE /* RecentUpdatesStatusSection.swift in Sources */,
 				01A48CA02D7BCA4A0016C5B1 /* CommunityTabScreen.swift in Sources */,
+				01F2192A2E0E0A5400FF4E55 /* SettingsItemView.swift in Sources */,
 				011626C52D68B1BC0033F479 /* CreateCallLinkSection.swift in Sources */,
 				0159465D2D66A84E0073E9FE /* CallsTabScreen.swift in Sources */,
 				0159464E2D66942D0073E9FE /* StatusSectionHeader.swift in Sources */,
 				015946562D66A3480073E9FE /* ChannelSectionHeader.swift in Sources */,
 				01E044EC2DAB2E0D0067F338 /* ChannelItemView.swift in Sources */,
 				017C71302D63611B00D0CC0E /* MainTabView.swift in Sources */,
+				01F219282E0E09A300FF4E55 /* SettingsTabScreen.swift in Sources */,
 				01E044EA2DAB26FE0067F338 /* ChannelsTabScreen.swift in Sources */,
 				015946502D6696BA0073E9FE /* StatusSection.swift in Sources */,
 				015946542D669DE90073E9FE /* StausChannelListView.swift in Sources */,
 				01EAE7CD2D7A5E8600B55142 /* RecentCallItemView.swift in Sources */,
 				015946592D66A6530073E9FE /* Constants.swift in Sources */,
+				01F2192D2E0E0C4700FF4E55 /* SettingsItem.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
