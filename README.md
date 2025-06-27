@@ -1,4 +1,4 @@
-**whatsapp_Clone**\n
+**whatsapp_Clone**
 An app which is clone of whatsapp using SwiftUI
 **Main Screens**: 
    1- Updates  
